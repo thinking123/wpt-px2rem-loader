@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint src",
+    "pretest": "npm run lint",
     "test": "clear & mocha"
   },
   "keywords": [],
