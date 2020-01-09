@@ -2,7 +2,8 @@ const loaderUtils = require("loader-utils");
 const objectAssign = require("object-assign");
 const px2rem = require("./main");
 const defaultConfig = {
-  rem: 10
+  rem: 10,
+  exclude:[]
 };
 
 module.exports = function(content, map, meta) {

@@ -52,7 +52,7 @@ module.exports = function (content, file, conf) {
                 }
 
                 try {
-                    rules[index].declarations[idx].value = px2rem(value, conf);
+                    rules[index].declarations[idx].value = px2rem(value, conf,this.mode);
                 }
                 catch (e) {
                     console.log('Error: ' + e.message);
