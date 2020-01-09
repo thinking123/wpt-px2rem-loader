@@ -1,7 +1,7 @@
 {
-  "name": "px2remLoader",
+  "name": "wptPx2RemLoader",
   "version": "1.0.0",
-  "description": "",
+  "description": "px to rem webpack loader",
   "main": "index.js",
   "scripts": {
     "lint": "eslint src",
@@ -10,7 +10,6 @@
     "test": "clear & mocha",
     "cover": "nyc mocha",
     "travis": "npm run cover -- --report lcovonly"
-
   },
   "husky": {
     "hooks": {
@@ -18,10 +17,19 @@
     }
   },
   "lint-staged": {
-    "*": ["yarn cover"]
+    "*.(js|css)": ["yarn cover"]
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "webpack",
+    "loader",
+    "wpt",
+    "px2rem"
+  ],
+  "files": [
+    "src/"
+  ],
+  "engines" : { "node" : ">=7.5.0" },
+  "author": "tk",
   "license": "ISC",
   "dependencies": {
     "css": "^2.2.4",
