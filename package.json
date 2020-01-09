@@ -14,7 +14,7 @@
     }
   },
   "lint-staged": {
-    "src/*.js": "mocha"
+    "*": "yarn test"
   },
   "keywords": [],
   "author": "",
