@@ -4,7 +4,7 @@
 #使用
 
 ```
-npm install --save-dev wptpx2rem
+npm install --save-dev wpt-px2rem-loader
 ```
 
 然后在webpack中使用 
