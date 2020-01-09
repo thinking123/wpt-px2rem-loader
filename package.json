@@ -8,7 +8,9 @@
     "precover": "eslint src",
     "pretest": "npm run lint",
     "test": "clear & mocha",
-    "cover": "nyc mocha"
+    "cover": "nyc mocha",
+    "travis": "npm run cover -- --report lcovonly"
+
   },
   "husky": {
     "hooks": {
