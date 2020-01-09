@@ -3,7 +3,7 @@ const objectAssign = require('object-assign');
 const px2rem = require('./main');
 const defaultConfig = {
 	rem: 10,
-	exclude:[]
+	exclude:[],
 };
 
 module.exports = function(content, map) {
