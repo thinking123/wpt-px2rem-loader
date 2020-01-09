@@ -73,7 +73,6 @@ module.exports = function (content, file, conf) {
             }
         };
 
-        fontFilter.clear();
 
         return css.stringify(result);
     }

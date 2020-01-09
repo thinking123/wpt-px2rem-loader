@@ -9,5 +9,5 @@ module.exports = function(content, map, meta) {
   const options = loaderUtils.getOptions(this);
   const config = objectAssign({}, defaultConfig, options);
 
-  return px2rem(content, file, config);
+  return px2rem(content, map, config);
 };
