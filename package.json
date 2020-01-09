@@ -1,5 +1,5 @@
 {
-  "name": "wptPx2RemLoader",
+  "name": "wpt-px2-rem-loader",
   "version": "1.0.0",
   "description": "px to rem webpack loader",
   "main": "index.js",
