@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint src",
+    "precover": "eslint src",
     "pretest": "npm run lint",
     "test": "clear & mocha",
     "cover": "nyc mocha"
@@ -15,7 +16,7 @@
     }
   },
   "lint-staged": {
-    "*": "yarn cover"
+    "*": ["yarn cover"]
   },
   "keywords": [],
   "author": "",
