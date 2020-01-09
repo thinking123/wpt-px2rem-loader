@@ -4,6 +4,7 @@ const px2rem = require('./main');
 const defaultConfig = {
 	rem: 10,
 	exclude:[],
+	sourceMap: false
 };
 
 module.exports = function(content, map) {
